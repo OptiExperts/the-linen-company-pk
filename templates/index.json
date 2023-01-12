@@ -17,10 +17,26 @@
             "button_2_text": "",
             "button_2_link": ""
           }
+        },
+        "043a9683-46a7-48ea-b590-e3f3ca91ce65": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Learn_laugh_play_baby_Play_mats_banner_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Learn_laugh_play_baby_Play_mats_Phone_banner.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "Tell your sto",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/storage-baskets",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
         }
       },
       "block_order": [
-        "8a193e88-0eed-4877-b7b1-c61f90b422a9"
+        "8a193e88-0eed-4877-b7b1-c61f90b422a9",
+        "043a9683-46a7-48ea-b590-e3f3ca91ce65"
       ],
       "settings": {
         "show_fullscreen": false,
