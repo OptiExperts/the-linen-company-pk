@@ -174,11 +174,73 @@
         "background": "#eaeaea",
         "text_color": "#1c1b1b"
       }
+    },
+    "9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--16697584550147__9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728-1673531848c9e8090c-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pink_rose_fitted_sheet_1_600x_28080153-ec68-4cad-9075-3d5778c8774b.webp",
+            "dot_style": "light",
+            "product_1": "everyday-essentials-pink-rose-bed-sheet-set",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 40,
+            "product_2": "",
+            "product_2_horizontal_position": 45,
+            "product_2_vertical_position": 65,
+            "product_3": "",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 50
+          }
+        },
+        "387fd549-8c94-4265-9a3c-eb6df92f1ab5": {
+          "type": "look",
+          "settings": {
+            "dot_style": "light",
+            "product_1": "",
+            "product_1_horizontal_position": 15,
+            "product_1_vertical_position": 15,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 85,
+            "product_3_vertical_position": 85
+          }
+        },
+        "2c12f3fa-9085-4eef-bb63-0ea35d0b3b66": {
+          "type": "look",
+          "settings": {
+            "dot_style": "light",
+            "product_1": "",
+            "product_1_horizontal_position": 15,
+            "product_1_vertical_position": 15,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 85,
+            "product_3_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "template--16697584550147__9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728-1673531848c9e8090c-0",
+        "387fd549-8c94-4265-9a3c-eb6df92f1ab5",
+        "2c12f3fa-9085-4eef-bb63-0ea35d0b3b66"
+      ],
+      "settings": {
+        "subheading": "Shop",
+        "title": "Our looks",
+        "show_mobile_product_info": false
+      }
     }
   },
   "order": [
     "slideshow",
     "cb7c9ee1-9ecc-477c-916f-9218070ece7d",
-    "2ed3a644-f558-4afe-ace8-887241fbc3b7"
+    "2ed3a644-f558-4afe-ace8-887241fbc3b7",
+    "9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728"
   ]
 }
