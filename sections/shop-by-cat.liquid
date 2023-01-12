@@ -3,8 +3,8 @@
 {% for block in section.blocks %}
         <div class="ao_custom_category_container">
             <div class="ao_custom_category_item">
-                <a style="text-decoration:none" href="{{ section.settings.link }}">
-                    <div class="ao_custom_category_item_image" style="background-image:url(https://cdn.shopify.com/s/files/1/0563/5106/4149/files/Screenshot_2022-10-13_at_4.57.00_PM_1000x.png)"></div>
+                <a style="text-decoration:none" href="{{ block.settings.link }}">
+                    <img class="ao_custom_category_item_image" src="{{ block.settings.logo | img_url }}"/>
                     <h6>{{ block.settings.text }}</h6>
                 </a>
             </div>
