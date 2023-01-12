@@ -43,7 +43,7 @@
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "",
+            "button_1_link": "shopify:\/\/collections\/new-arrivals",
             "button_2_text": "",
             "button_2_link": ""
           }
@@ -62,13 +62,27 @@
             "button_2_text": "",
             "button_2_link": ""
           }
+        },
+        "920b4f36-55cd-4f3e-abea-082258858729": {
+          "type": "image",
+          "settings": {
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
         }
       },
       "block_order": [
         "8a193e88-0eed-4877-b7b1-c61f90b422a9",
         "043a9683-46a7-48ea-b590-e3f3ca91ce65",
         "d64172e9-ea3c-41aa-8c49-fd95627cac8a",
-        "d8422e24-a213-45b2-ba58-ec60cb119527"
+        "d8422e24-a213-45b2-ba58-ec60cb119527",
+        "920b4f36-55cd-4f3e-abea-082258858729"
       ],
       "settings": {
         "show_fullscreen": false,
