@@ -54,7 +54,7 @@
         "type": "sidebar-menu",
         "settings": {
           "primary_menu": "main-menu",
-          "secondary_menu": "",
+          "secondary_menu": "main-final",
           "show_social_media": true
         }
       },
