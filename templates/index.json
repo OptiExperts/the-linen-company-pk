@@ -136,7 +136,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/Mood_1080_x_1080_px_2.png",
             "link": "shopify:\/\/collections\/collections",
-            "text": "baby test"
+            "text": "All Collections"
           }
         },
         "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-1": {
@@ -144,7 +144,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/Mood_1080_x_1080_px.png",
             "link": "shopify:\/\/collections\/bed-sheet-sets",
-            "text": "test2"
+            "text": "Sheets"
           }
         },
         "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-2": {
@@ -152,15 +152,15 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/Year_In_Review_1080_x_1080_px_4.png",
             "link": "shopify:\/\/collections\/blankets",
-            "text": "test3"
+            "text": "Blankets"
           }
         },
         "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-3": {
           "type": "category",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/home_storage_basket_03.png",
-            "link": "shopify:\/\/collections",
-            "text": "test4"
+            "logo": "shopify:\/\/shop_images\/Waffle_Weave_1080_x_1080_px_1.png",
+            "link": "shopify:\/\/collections\/waffles-collection",
+            "text": "Waffles"
           }
         }
       },
