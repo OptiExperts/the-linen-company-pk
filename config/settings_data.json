@@ -85,23 +85,10 @@
               "push_2_subheading": "Example sub-heading",
               "push_2_url": ""
             }
-          },
-          "224ae051-835e-4e33-8fc5-76233248405e": {
-            "type": "mega_menu",
-            "settings": {
-              "navigation_mega_menu": "shop-by-collection",
-              "push_1_heading": "Example heading",
-              "push_1_subheading": "Example sub-heading",
-              "push_1_url": "",
-              "push_2_heading": "Example heading",
-              "push_2_subheading": "Example sub-heading",
-              "push_2_url": ""
-            }
           }
         },
         "block_order": [
-          "ca3815f3-fdf4-4d47-b133-7048f587beb4",
-          "224ae051-835e-4e33-8fc5-76233248405e"
+          "ca3815f3-fdf4-4d47-b133-7048f587beb4"
         ],
         "settings": {
           "use_sticky_header": true,
@@ -110,7 +97,7 @@
           "mobile_logo_max_width": 150,
           "show_country_selector": false,
           "show_locale_selector": true,
-          "navigation_menu": "",
+          "navigation_menu": "main-final",
           "navigation_style": "center",
           "show_icons": false,
           "enable_transparent_header": true,
