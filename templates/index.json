@@ -6,6 +6,8 @@
         "8a193e88-0eed-4877-b7b1-c61f90b422a9": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_mob_preview_1.jpg",
             "apply_overlay": true,
             "content_position": "bottomLeft",
             "subheading": "",
