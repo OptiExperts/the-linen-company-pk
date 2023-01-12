@@ -89,7 +89,7 @@
           "224ae051-835e-4e33-8fc5-76233248405e": {
             "type": "mega_menu",
             "settings": {
-              "navigation_mega_menu": "",
+              "navigation_mega_menu": "shop-by-collection",
               "push_1_heading": "Example heading",
               "push_1_subheading": "Example sub-heading",
               "push_1_url": "",
