@@ -127,10 +127,54 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
+    },
+    "2ed3a644-f558-4afe-ace8-887241fbc3b7": {
+      "type": "shop-by-cat",
+      "blocks": {
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-0": {
+          "type": "category",
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "text": ""
+          }
+        },
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-1": {
+          "type": "category",
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "text": ""
+          }
+        },
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-2": {
+          "type": "category",
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "text": ""
+          }
+        },
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-3": {
+          "type": "category",
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-0",
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-1",
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-2",
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-3"
+      ],
+      "settings": {
+        "background": "#eaeaea",
+        "text_color": "#1c1b1b"
+      }
     }
   },
   "order": [
     "slideshow",
-    "cb7c9ee1-9ecc-477c-916f-9218070ece7d"
+    "cb7c9ee1-9ecc-477c-916f-9218070ece7d",
+    "2ed3a644-f558-4afe-ace8-887241fbc3b7"
   ]
 }
