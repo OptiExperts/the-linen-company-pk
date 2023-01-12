@@ -1,1 +1,136 @@
-{"sections":{"slideshow":{"type":"slideshow","settings":{"show_fullscreen":true,"show_arrow":false,"autoplay":true,"cycle_speed":5,"text_color":"#ffffff","button_color":"#363636","button_background":"#ffffff"}}},"order":["slideshow"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "8a193e88-0eed-4877-b7b1-c61f90b422a9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_mob_preview_1.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/storage-baskets",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "043a9683-46a7-48ea-b590-e3f3ca91ce65": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Learn_laugh_play_baby_Play_mats_banner_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Learn_laugh_play_baby_Play_mats_Phone_banner.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/the-little-bedroom",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "d64172e9-ea3c-41aa-8c49-fd95627cac8a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1800-600_Comforter_Banner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/750-1100_Comforter_Banner.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/new-arrivals",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "d8422e24-a213-45b2-ba58-ec60cb119527": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Plum_Waffley_Comfy_Web_Banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/Plum_Waffley_Comfy_Phone_Banner.png",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "920b4f36-55cd-4f3e-abea-082258858729": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/printed_blankets_02.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/printed_blankets_02_mob_view.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/waffles-collection",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8a193e88-0eed-4877-b7b1-c61f90b422a9",
+        "043a9683-46a7-48ea-b590-e3f3ca91ce65",
+        "d64172e9-ea3c-41aa-8c49-fd95627cac8a",
+        "d8422e24-a213-45b2-ba58-ec60cb119527",
+        "920b4f36-55cd-4f3e-abea-082258858729"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "cb7c9ee1-9ecc-477c-916f-9218070ece7d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16697584550147__cb7c9ee1-9ecc-477c-916f-9218070ece7d-1673509738fa6c153a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Green_TLC_UAE_publications_GIF_high_res_-_desktop_view_400px_1400x_c50cb1b8-acef-412b-b355-3162bf11032b.gif",
+            "mobile_image": "shopify:\/\/shop_images\/Green_TLC_UAE_publications_GIF_high_res_-_mob_review_x800_0e7d177d-1d86-4e02-ac46-4338e0061e09.gif",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16697584550147__cb7c9ee1-9ecc-477c-916f-9218070ece7d-1673509738fa6c153a-0"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "cb7c9ee1-9ecc-477c-916f-9218070ece7d"
+  ]
+}
