@@ -1,12 +1,12 @@
-<div class="ao_custom_category_wrapper">
-<h3 style="text-align:left; padding:0px 5px;">SHOP BY CATEGORY</h3>
+
+<h3>SHOP BY CATEGORY</h3>
     {% for block in section.blocks %}
         <a style="" href="{{ section.settings.link }}">
             <img class="" src="{{ block.settings.logo | img_url }})"/>
             <h6>{{ block.settings.text }}</h6>
         </a>
     {% endfor %}
-    </div>
+
     <style>
         .ao_custom_category_wrapper{
         padding: 0px 5px;
