@@ -66,6 +66,8 @@
         "920b4f36-55cd-4f3e-abea-082258858729": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/printed_blankets_02.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/printed_blankets_02_mob_view.jpg",
             "apply_overlay": true,
             "content_position": "bottomLeft",
             "subheading": "",
