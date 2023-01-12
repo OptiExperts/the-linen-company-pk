@@ -213,11 +213,12 @@
         "2c12f3fa-9085-4eef-bb63-0ea35d0b3b66": {
           "type": "look",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Hotel-Grey-3_600x_b5efd93d-1878-4138-9a36-f0fe57adf8ad.webp",
             "dot_style": "light",
             "product_1": "",
             "product_1_horizontal_position": 15,
             "product_1_vertical_position": 15,
-            "product_2": "",
+            "product_2": "grey-solid-bed-sheet-set",
             "product_2_horizontal_position": 50,
             "product_2_vertical_position": 50,
             "product_3": "",
