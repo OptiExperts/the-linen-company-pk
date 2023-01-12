@@ -1,6 +1,6 @@
 <div class="ao_custom_category_wrapper">
 <h3 style="text-align:left; padding:0px 5px;">SHOP BY CATEGORY</h3>
-
+{% for block in section.blocks %}
         <div class="ao_custom_category_container">
             <div class="ao_custom_category_item">
                 <a style="text-decoration:none" href="{{ section.settings.link }}">
@@ -9,7 +9,7 @@
                 </a>
             </div>
         </div>
-   
+        {% endfor %}
     </div>
     <style>
         .ao_custom_category_wrapper{
