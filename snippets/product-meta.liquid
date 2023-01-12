@@ -30,7 +30,11 @@
     <p class="ProductMeta__Sku Heading Text--subdued u-h6">{{ 'product.form.sku' | t }}: <span class="ProductMeta__SkuNumber">{{ product.selected_or_first_available_variant.sku }}</span></p>
   {%- endif -%}
 
-  {%- if product.template_suffix != 'coming-soon' -%}
+  
+{% comment %}Start automatically added Judge.me widget{% endcomment %}
+  {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product %}
+{% comment %}End automatically added Judge.me widget{% endcomment %}
+{%- if product.template_suffix != 'coming-soon' -%}
     <div class="ProductMeta__PriceList Heading">
       {%- if settings.currency_code_enabled -%}
         {%- if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
