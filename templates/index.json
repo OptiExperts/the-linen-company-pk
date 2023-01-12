@@ -197,10 +197,11 @@
         "387fd549-8c94-4265-9a3c-eb6df92f1ab5": {
           "type": "look",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ayana-Front-2_600x_7dcbbb82-d978-43d7-b47d-aa810f605ebf.jpg",
             "dot_style": "light",
-            "product_1": "",
-            "product_1_horizontal_position": 15,
-            "product_1_vertical_position": 15,
+            "product_1": "everyday-essentials-ayana-front-bed-sheet-set",
+            "product_1_horizontal_position": 59,
+            "product_1_vertical_position": 39,
             "product_2": "",
             "product_2_horizontal_position": 50,
             "product_2_vertical_position": 50,
