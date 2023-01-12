@@ -290,21 +290,12 @@
         "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/LUXE_800_linen_bedsheet_right_tile_1000x_0958f134-2bae-4b8f-843e-351cb4af4872.webp",
             "apply_overlay": true,
             "title": "QUALITY",
             "subheading": "WE'RE ALL ABOUT",
             "heading": "QUALITY",
             "content": "<p><\/p><p>Our mission is to make the world’s most comfortable bedding products. From our unique tencel and bamboo blends to how we weave the highest quality cotton, our R&D team is always hard at work to introduce the latest fabric technologies.<\/p>"
-          }
-        },
-        "884f486e-70da-41cc-9b2c-45b7bb3aee3f": {
-          "type": "item",
-          "settings": {
-            "apply_overlay": true,
-            "title": "2000",
-            "subheading": "Sub-heading",
-            "heading": "Heading",
-            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
           }
         },
         "4a2b2723-ea8c-4688-a486-2c8a0e87c847": {
@@ -323,7 +314,6 @@
         "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-0",
         "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-1",
         "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-2",
-        "884f486e-70da-41cc-9b2c-45b7bb3aee3f",
         "4a2b2723-ea8c-4688-a486-2c8a0e87c847"
       ],
       "settings": {
