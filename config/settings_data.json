@@ -140,7 +140,7 @@
             "type": "text",
             "settings": {
               "title": "Contact us",
-              "content": "<p>hello@thelinen.company<\/p>",
+              "content": "<p>hello@thelinen.company<\/p><p>Feel free to reach out and ask us anything - from your order status, return policies or even how to style your bed. We’d be happy to help you over the phone, email, or text.<\/p><p><\/p><p><strong>(Mon to Fri | 9:30 am - 5:30 pm)<\/strong><\/p>",
               "show_social_media": true
             }
           },
