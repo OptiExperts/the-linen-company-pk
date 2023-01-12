@@ -95,9 +95,42 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
+    },
+    "cb7c9ee1-9ecc-477c-916f-9218070ece7d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16697584550147__cb7c9ee1-9ecc-477c-916f-9218070ece7d-1673509738fa6c153a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Green_TLC_UAE_publications_GIF_high_res_-_desktop_view_400px_1400x_c50cb1b8-acef-412b-b355-3162bf11032b.gif",
+            "mobile_image": "shopify:\/\/shop_images\/Green_TLC_UAE_publications_GIF_high_res_-_mob_review_x800_0e7d177d-1d86-4e02-ac46-4338e0061e09.gif",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16697584550147__cb7c9ee1-9ecc-477c-916f-9218070ece7d-1673509738fa6c153a-0"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
     }
   },
   "order": [
-    "slideshow"
+    "slideshow",
+    "cb7c9ee1-9ecc-477c-916f-9218070ece7d"
   ]
 }
