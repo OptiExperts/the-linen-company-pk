@@ -296,12 +296,34 @@
             "heading": "Heading",
             "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
           }
+        },
+        "884f486e-70da-41cc-9b2c-45b7bb3aee3f": {
+          "type": "item",
+          "settings": {
+            "apply_overlay": true,
+            "title": "2000",
+            "subheading": "Sub-heading",
+            "heading": "Heading",
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        },
+        "4a2b2723-ea8c-4688-a486-2c8a0e87c847": {
+          "type": "item",
+          "settings": {
+            "apply_overlay": true,
+            "title": "2000",
+            "subheading": "Sub-heading",
+            "heading": "Heading",
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
         }
       },
       "block_order": [
         "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-0",
         "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-1",
-        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-2"
+        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-2",
+        "884f486e-70da-41cc-9b2c-45b7bb3aee3f",
+        "4a2b2723-ea8c-4688-a486-2c8a0e87c847"
       ],
       "settings": {
         "text_color": "#ffffff"
