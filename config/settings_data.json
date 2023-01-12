@@ -101,7 +101,7 @@
           "224ae051-835e-4e33-8fc5-76233248405e"
         ],
         "settings": {
-          "use_sticky_header": true,
+          "use_sticky_header": false,
           "logo_max_width": 140,
           "mobile_logo_max_width": 90,
           "show_country_selector": false,
@@ -112,7 +112,8 @@
           "enable_transparent_header": true,
           "enable_transparent_header_collection": false,
           "show_transparent_header_border": true,
-          "transparent_text_color": "#ffffff"
+          "transparent_text_color": "#ffffff",
+          "transparent_logo": "shopify:\/\/shop_images\/1200_white_285x_acbd826a-99ac-4a2f-9e50-c89c6645b686.webp"
         }
       },
       "footer": {
