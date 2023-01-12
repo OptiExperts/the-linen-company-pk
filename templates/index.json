@@ -142,22 +142,23 @@
         "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-1": {
           "type": "category",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/storage_baskets_launch_banner_mob_preview_1.jpg",
             "link": "shopify:\/\/collections",
-            "text": ""
+            "text": "test2"
           }
         },
         "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-2": {
           "type": "category",
           "settings": {
             "link": "shopify:\/\/collections",
-            "text": ""
+            "text": "test3"
           }
         },
         "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-3": {
           "type": "category",
           "settings": {
             "link": "shopify:\/\/collections",
-            "text": ""
+            "text": "test4"
           }
         }
       },
