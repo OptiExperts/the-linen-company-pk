@@ -101,7 +101,7 @@
           "224ae051-835e-4e33-8fc5-76233248405e"
         ],
         "settings": {
-          "use_sticky_header": false,
+          "use_sticky_header": true,
           "logo": "shopify:\/\/shop_images\/1200_white_285x_acbd826a-99ac-4a2f-9e50-c89c6645b686.webp",
           "logo_max_width": 140,
           "mobile_logo_max_width": 90,
