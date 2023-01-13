@@ -68,14 +68,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/printed_blankets_02.jpg",
             "mobile_image": "shopify:\/\/shop_images\/printed_blankets_02_mob_view.jpg",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/waffles-collection",
+            "button_1_link": "shopify:\/\/collections\/blankets",
             "button_2_text": "",
-            "button_2_link": ""
+            "button_2_link": "shopify:\/\/collections\/blankets"
           }
         }
       },
