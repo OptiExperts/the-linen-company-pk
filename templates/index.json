@@ -8,14 +8,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_mob_preview_1.jpg",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
             "button_1_link": "shopify:\/\/collections\/storage-baskets",
             "button_2_text": "",
-            "button_2_link": ""
+            "button_2_link": "shopify:\/\/collections\/storage-baskets"
           }
         },
         "043a9683-46a7-48ea-b590-e3f3ca91ce65": {
@@ -104,7 +104,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Green_TLC_UAE_publications_GIF_high_res_-_desktop_view_400px_1400x_c50cb1b8-acef-412b-b355-3162bf11032b.gif",
             "mobile_image": "shopify:\/\/shop_images\/Green_TLC_UAE_publications_GIF_high_res_-_mob_review_x800_0e7d177d-1d86-4e02-ac46-4338e0061e09.gif",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
