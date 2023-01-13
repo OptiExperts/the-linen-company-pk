@@ -26,7 +26,7 @@
     "uppercase_heading": true,
     "text_font": "sans-serif",
     "base_text_font_size": 15,
-    "color_swatch_config": "Black:#000000\nOrange:#DB9214\nGreen:#33620E\nRed:#FF0000\nBlue:#0000FF\nGolden:#E1C564\nBrown:#964B00\nMist:#B7D6AF\nIvory:#F8F0C6\nlight grey:#d3d3d3",
+    "color_swatch_config": "Black:#000000\nOrange:#DB9214\nGreen:#33620E\nRed:#FF0000\nBlue:#0000FF\nGolden:#E1C564\nBrown:#964B00\nMist:#B7D6AF\nIvory:#F8F0C6\nlight grey:#d3d3d3\nsoft pink:#A99091",
     "show_page_transition": false,
     "show_button_transition": false,
     "search_mode": "product,article",
