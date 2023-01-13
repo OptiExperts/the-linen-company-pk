@@ -23,14 +23,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Learn_laugh_play_baby_Play_mats_banner_1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Learn_laugh_play_baby_Play_mats_Phone_banner.jpg",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
             "button_1_link": "shopify:\/\/collections\/the-little-bedroom",
             "button_2_text": "",
-            "button_2_link": ""
+            "button_2_link": "shopify:\/\/collections\/the-little-bedroom"
           }
         },
         "d64172e9-ea3c-41aa-8c49-fd95627cac8a": {
