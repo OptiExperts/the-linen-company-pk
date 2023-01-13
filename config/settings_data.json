@@ -32,6 +32,7 @@
     "search_mode": "product,article",
     "product_show_price_on_hover": false,
     "product_show_secondary_image": true,
+    "show_product_rating": false,
     "product_info_alignment": "left",
     "product_image_size": "natural",
     "product_list_horizontal_spacing": "small",
@@ -53,7 +54,7 @@
         "type": "sidebar-menu",
         "settings": {
           "primary_menu": "main-menu",
-          "secondary_menu": "",
+          "secondary_menu": "main-final",
           "show_social_media": true
         }
       },
@@ -62,9 +63,9 @@
         "settings": {
           "enable_bar": true,
           "home_page_only": false,
-          "background": "#f3f3f3",
-          "text_color": "#5c5c5c",
-          "content": "Announce something here",
+          "background": "#000000",
+          "text_color": "#ffffff",
+          "content": "ORDERS MIGHT BE DELAYED DUE TO EXTREME FOG | FREE SHIPPING FOR ORDERS ABOVE RS. 2,000",
           "link": ""
         }
       },
@@ -74,32 +75,20 @@
           "ca3815f3-fdf4-4d47-b133-7048f587beb4": {
             "type": "mega_menu",
             "settings": {
-              "navigation_mega_menu": "Shop by Collection",
+              "navigation_mega_menu": "shop",
               "push_1_image": "shopify:\/\/shop_images\/Mood_1080_x_1080_px_3.png",
-              "push_1_heading": "Example heading",
-              "push_1_subheading": "Example sub-heading",
-              "push_1_url": "",
-              "push_2_heading": "Example heading",
-              "push_2_subheading": "Example sub-heading",
-              "push_2_url": ""
-            }
-          },
-          "224ae051-835e-4e33-8fc5-76233248405e": {
-            "type": "mega_menu",
-            "settings": {
-              "navigation_mega_menu": "",
-              "push_1_heading": "Example heading",
-              "push_1_subheading": "Example sub-heading",
-              "push_1_url": "",
-              "push_2_heading": "Example heading",
-              "push_2_subheading": "Example sub-heading",
-              "push_2_url": ""
+              "push_1_heading": "Fillers",
+              "push_1_subheading": "breathless",
+              "push_1_url": "shopify:\/\/collections\/fillers",
+              "push_2_image": "shopify:\/\/shop_images\/Hotel-Grey-3_600x_b5efd93d-1878-4138-9a36-f0fe57adf8ad.webp",
+              "push_2_heading": "Premium Sheets",
+              "push_2_subheading": "Unmatched softness",
+              "push_2_url": "shopify:\/\/collections\/linen-royale"
             }
           }
         },
         "block_order": [
-          "ca3815f3-fdf4-4d47-b133-7048f587beb4",
-          "224ae051-835e-4e33-8fc5-76233248405e"
+          "ca3815f3-fdf4-4d47-b133-7048f587beb4"
         ],
         "settings": {
           "use_sticky_header": true,
@@ -108,12 +97,12 @@
           "mobile_logo_max_width": 150,
           "show_country_selector": false,
           "show_locale_selector": true,
-          "navigation_menu": "",
-          "navigation_style": "center",
-          "show_icons": false,
+          "navigation_menu": "main-final",
+          "navigation_style": "inline",
+          "show_icons": true,
           "enable_transparent_header": true,
           "enable_transparent_header_collection": false,
-          "show_transparent_header_border": true,
+          "show_transparent_header_border": false,
           "transparent_text_color": "#ffffff",
           "transparent_logo": "shopify:\/\/shop_images\/1200_white_285x_acbd826a-99ac-4a2f-9e50-c89c6645b686.webp"
         }

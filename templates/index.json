@@ -8,14 +8,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_mob_preview_1.jpg",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
             "button_1_link": "shopify:\/\/collections\/storage-baskets",
             "button_2_text": "",
-            "button_2_link": ""
+            "button_2_link": "shopify:\/\/collections\/storage-baskets"
           }
         },
         "043a9683-46a7-48ea-b590-e3f3ca91ce65": {
@@ -23,14 +23,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Learn_laugh_play_baby_Play_mats_banner_1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Learn_laugh_play_baby_Play_mats_Phone_banner.jpg",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
             "button_1_link": "shopify:\/\/collections\/the-little-bedroom",
             "button_2_text": "",
-            "button_2_link": ""
+            "button_2_link": "shopify:\/\/collections\/the-little-bedroom"
           }
         },
         "d64172e9-ea3c-41aa-8c49-fd95627cac8a": {
@@ -38,14 +38,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/1800-600_Comforter_Banner.jpg",
             "mobile_image": "shopify:\/\/shop_images\/750-1100_Comforter_Banner.jpg",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
             "button_1_link": "shopify:\/\/collections\/new-arrivals",
             "button_2_text": "",
-            "button_2_link": ""
+            "button_2_link": "shopify:\/\/collections\/new-arrivals"
           }
         },
         "d8422e24-a213-45b2-ba58-ec60cb119527": {
@@ -53,14 +53,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Plum_Waffley_Comfy_Web_Banner.png",
             "mobile_image": "shopify:\/\/shop_images\/Plum_Waffley_Comfy_Phone_Banner.png",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "",
+            "button_1_link": "shopify:\/\/collections\/waffles-collection",
             "button_2_text": "",
-            "button_2_link": ""
+            "button_2_link": "shopify:\/\/collections\/waffles-collection"
           }
         },
         "920b4f36-55cd-4f3e-abea-082258858729": {
@@ -68,14 +68,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/printed_blankets_02.jpg",
             "mobile_image": "shopify:\/\/shop_images\/printed_blankets_02_mob_view.jpg",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/waffles-collection",
+            "button_1_link": "shopify:\/\/collections\/blankets",
             "button_2_text": "",
-            "button_2_link": ""
+            "button_2_link": "shopify:\/\/collections\/blankets"
           }
         }
       },
@@ -104,7 +104,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Green_TLC_UAE_publications_GIF_high_res_-_desktop_view_400px_1400x_c50cb1b8-acef-412b-b355-3162bf11032b.gif",
             "mobile_image": "shopify:\/\/shop_images\/Green_TLC_UAE_publications_GIF_high_res_-_mob_review_x800_0e7d177d-1d86-4e02-ac46-4338e0061e09.gif",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
@@ -174,11 +174,194 @@
         "background": "#eaeaea",
         "text_color": "#1c1b1b"
       }
+    },
+    "9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--16697584550147__9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728-1673531848c9e8090c-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pink_rose_fitted_sheet_1_600x_28080153-ec68-4cad-9075-3d5778c8774b.webp",
+            "dot_style": "light",
+            "product_1": "everyday-essentials-pink-rose-bed-sheet-set",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 40,
+            "product_2": "",
+            "product_2_horizontal_position": 45,
+            "product_2_vertical_position": 65,
+            "product_3": "",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 50
+          }
+        },
+        "387fd549-8c94-4265-9a3c-eb6df92f1ab5": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ayana-Front-2_600x_7dcbbb82-d978-43d7-b47d-aa810f605ebf.jpg",
+            "dot_style": "light",
+            "product_1": "everyday-essentials-ayana-front-bed-sheet-set",
+            "product_1_horizontal_position": 59,
+            "product_1_vertical_position": 39,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 85,
+            "product_3_vertical_position": 85
+          }
+        },
+        "2c12f3fa-9085-4eef-bb63-0ea35d0b3b66": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hotel-Grey-3_600x_b5efd93d-1878-4138-9a36-f0fe57adf8ad.webp",
+            "dot_style": "light",
+            "product_1": "",
+            "product_1_horizontal_position": 15,
+            "product_1_vertical_position": 15,
+            "product_2": "grey-solid-bed-sheet-set",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 85,
+            "product_3_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "template--16697584550147__9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728-1673531848c9e8090c-0",
+        "387fd549-8c94-4265-9a3c-eb6df92f1ab5",
+        "2c12f3fa-9085-4eef-bb63-0ea35d0b3b66"
+      ],
+      "settings": {
+        "subheading": "Shop",
+        "title": "Our looks",
+        "show_mobile_product_info": false
+      }
+    },
+    "3c395f23-103b-4ade-aee8-91b2610048ea": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16697584550147__3c395f23-103b-4ade-aee8-91b2610048ea-1673516022564ad959-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bedding",
+            "title": "",
+            "grid_items_count": 4,
+            "button_text": "View all products"
+          }
+        }
+      },
+      "block_order": [
+        "template--16697584550147__3c395f23-103b-4ade-aee8-91b2610048ea-1673516022564ad959-0"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "3add1ef5-b864-4a4d-b73c-ffd6262674f3": {
+      "type": "timeline",
+      "blocks": {
+        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.Why_is_our_bueaty_sleep_important_1000x_a13b0243-1e12-40cd-ab78-47394858de8d.webp",
+            "apply_overlay": true,
+            "title": "DIRECT TO CONSUMER",
+            "subheading": "WE'RE ALL ABOUT",
+            "heading": "DIRECT TO CONSUMER",
+            "content": "<p><\/p><p>Unlike other DTC brands who buy their products from factories to resell at a higher markup, we make our sheets in our family-owned factory. No distributor or retailer mark-ups. You get the best quality for the best price, always.<\/p>"
+          }
+        },
+        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200_1_Pink_Oeko_tex_1000x_c5b89996-5910-4f58-99fd-eec5a18e548f.webp",
+            "apply_overlay": true,
+            "title": "SUSTAINABILITY",
+            "subheading": "WE'RE ALL ABOUT",
+            "heading": "SUSTAINABILITY",
+            "content": "<p>Our bed sheets have the highest possible rating from OEKO-TEX; Made In Green. This means that they don’t contain any harmful chemicals, are made in environmentally friendly facilities, and also made in a safe and socially responsible workplace.<\/p>"
+          }
+        },
+        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LUXE_800_linen_bedsheet_right_tile_1000x_0958f134-2bae-4b8f-843e-351cb4af4872.webp",
+            "apply_overlay": true,
+            "title": "QUALITY",
+            "subheading": "WE'RE ALL ABOUT",
+            "heading": "QUALITY",
+            "content": "<p><\/p><p>Our mission is to make the world’s most comfortable bedding products. From our unique tencel and bamboo blends to how we weave the highest quality cotton, our R&D team is always hard at work to introduce the latest fabric technologies.<\/p>"
+          }
+        },
+        "4a2b2723-ea8c-4688-a486-2c8a0e87c847": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16_-_frosted_ice_waffle_duvet_cover_set_02_1000x_97aa6a5b-cbc9-4abc-b5f4-a297671930ce.webp",
+            "apply_overlay": true,
+            "title": "Design",
+            "subheading": "WE'RE ALL ABOUT",
+            "heading": "DESIGN",
+            "content": "<p><\/p><p>We take pride in having more bedding design combinations than any other retailer in the world. Mix and match our various styles to create your ideal bed.<\/p><p>That’s why we like to say, <em>'Make your bed, yours.'<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-0",
+        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-1",
+        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-2",
+        "4a2b2723-ea8c-4688-a486-2c8a0e87c847"
+      ],
+      "settings": {
+        "text_color": "#ffffff"
+      }
+    },
+    "4321c6d9-4e53-41d0-89ec-b7759a321be4": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16697584550147__4321c6d9-4e53-41d0-89ec-b7759a321be4-16735331020c89bf65-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pink_Cameo_Flora_Web_Banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/Pink_Cameo_Flora_Phone_Banner.png",
+            "apply_overlay": true,
+            "content_position": "middleCenter",
+            "subheading": "Its Just not the word of mouth",
+            "title": "Our quality saying by our customers",
+            "button_1_text": "Customer Reviews",
+            "button_1_link": "shopify:\/\/pages\/reviews",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16697584550147__4321c6d9-4e53-41d0-89ec-b7759a321be4-16735331020c89bf65-0"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
     }
   },
   "order": [
     "slideshow",
     "cb7c9ee1-9ecc-477c-916f-9218070ece7d",
-    "2ed3a644-f558-4afe-ace8-887241fbc3b7"
+    "2ed3a644-f558-4afe-ace8-887241fbc3b7",
+    "9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728",
+    "3c395f23-103b-4ade-aee8-91b2610048ea",
+    "3add1ef5-b864-4a4d-b73c-ffd6262674f3",
+    "4321c6d9-4e53-41d0-89ec-b7759a321be4"
   ]
 }
