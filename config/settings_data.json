@@ -77,13 +77,13 @@
             "settings": {
               "navigation_mega_menu": "shop",
               "push_1_image": "shopify:\/\/shop_images\/Mood_1080_x_1080_px_3.png",
-              "push_1_heading": "Example heading",
-              "push_1_subheading": "Example sub-heading",
-              "push_1_url": "",
+              "push_1_heading": "Fillers",
+              "push_1_subheading": "breathless",
+              "push_1_url": "shopify:\/\/collections\/fillers",
               "push_2_image": "shopify:\/\/shop_images\/Hotel-Grey-3_600x_b5efd93d-1878-4138-9a36-f0fe57adf8ad.webp",
-              "push_2_heading": "Example heading",
-              "push_2_subheading": "Example sub-heading",
-              "push_2_url": ""
+              "push_2_heading": "Premium Sheets",
+              "push_2_subheading": "Unmatched softness",
+              "push_2_url": "shopify:\/\/collections\/linen-royale"
             }
           }
         },
