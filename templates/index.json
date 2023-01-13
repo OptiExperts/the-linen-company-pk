@@ -38,14 +38,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/1800-600_Comforter_Banner.jpg",
             "mobile_image": "shopify:\/\/shop_images\/750-1100_Comforter_Banner.jpg",
-            "apply_overlay": true,
+            "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
             "button_1_link": "shopify:\/\/collections\/new-arrivals",
             "button_2_text": "",
-            "button_2_link": ""
+            "button_2_link": "shopify:\/\/collections\/new-arrivals"
           }
         },
         "d8422e24-a213-45b2-ba58-ec60cb119527": {
