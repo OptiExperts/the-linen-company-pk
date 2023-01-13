@@ -342,6 +342,8 @@
                     </div>
                   </div>
 
+                  <p style="padding-top:15px; font-size:14px;">Pay in 3 interest free installments of PKR <b id="payprice">{{ product.selected_or_first_available_variant.price | divided_by: 3 | money_without_currency }}</b> with <img style="height:20px; width:auto; padding:0px 2px;" src="https://cdn.airiosoft.com/thelinenco/images/kalpay.png"/></p>
+
                 {%- when 'inventory' -%}
                   {%- assign hide_inventory_quantity_by_default = false -%}
 
