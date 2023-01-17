@@ -22,14 +22,14 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bring_Comfort_Home_-_Web_Banner.png",
-            "mobile_image": "shopify:\/\/shop_images\/Bring_Comfort_Home_-_Phone_Banner.jpg",
+            "image": "shopify:\/\/shop_images\/1.5_Bring_Comfort_Home_-_Web_Banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/1.5_Bring_Comfort_Home_-_Phone_Banner.jpg",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/new-arrivals",
+            "button_1_link": "shopify:\/\/collections\/bring-comfort-home",
             "button_2_text": "",
             "button_2_link": ""
           }
