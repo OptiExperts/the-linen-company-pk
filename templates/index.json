@@ -50,17 +50,18 @@
         },
         "d8422e24-a213-45b2-ba58-ec60cb119527": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Plum_Waffley_Comfy_Web_Banner.png",
-            "mobile_image": "shopify:\/\/shop_images\/Plum_Waffley_Comfy_Phone_Banner.png",
+            "image": "shopify:\/\/shop_images\/Bring_Comfort_Home_-_Web_Banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/Bring_Comfort_Home_-_Phone_Banner.jpg",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/waffles-collection",
+            "button_1_link": "",
             "button_2_text": "",
-            "button_2_link": "shopify:\/\/collections\/waffles-collection"
+            "button_2_link": ""
           }
         },
         "920b4f36-55cd-4f3e-abea-082258858729": {
