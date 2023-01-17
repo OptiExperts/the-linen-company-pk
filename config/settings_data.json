@@ -24,7 +24,7 @@
     "heading_font": "montserrat_n6",
     "heading_size": "small",
     "uppercase_heading": true,
-    "text_font": "montserrat_n5",
+    "text_font": "montserrat_n4",
     "base_text_font_size": 13,
     "color_swatch_config": "Black:#000000\nOrange:#DB9214\nGreen:#33620E\nRed:#FF0000\nBlue:#0000FF\nGolden:#E1C564\nBrown:#964B00\nMist:#B7D6AF\nIvory:#F8F0C6\nlight grey:#d3d3d3\nsoft pink:#A99091\nsand:#CCC3B3",
     "show_page_transition": false,
