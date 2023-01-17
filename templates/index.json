@@ -51,6 +51,7 @@
         },
         "8a193e88-0eed-4877-b7b1-c61f90b422a9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_mob_preview_1.jpg",
@@ -66,6 +67,7 @@
         },
         "920b4f36-55cd-4f3e-abea-082258858729": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/printed_blankets_02.jpg",
             "mobile_image": "shopify:\/\/shop_images\/printed_blankets_02_mob_view.jpg",
