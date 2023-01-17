@@ -63,8 +63,8 @@
         "settings": {
           "enable_bar": true,
           "home_page_only": false,
-          "background": "#faf8f4",
-          "text_color": "#686868",
+          "background": "#244e3d",
+          "text_color": "#faf8f4",
           "content": "FREE SHIPPING FOR ORDERS ABOVE RS. 2,000",
           "link": ""
         }
