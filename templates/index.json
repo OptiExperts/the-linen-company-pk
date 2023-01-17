@@ -3,18 +3,33 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "d8422e24-a213-45b2-ba58-ec60cb119527": {
+        "043a9683-46a7-48ea-b590-e3f3ca91ce65": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bring_Comfort_Home_-_Web_Banner.png",
-            "mobile_image": "shopify:\/\/shop_images\/Bring_Comfort_Home_-_Phone_Banner.jpg",
+            "image": "shopify:\/\/shop_images\/1_Bring_Comfort_Home_-_Web_Banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/1_Bring_Comfort_Home_-_Phone_Banner.jpg",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/new-arrivals",
+            "button_1_link": "shopify:\/\/collections\/bring-comfort-home",
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/collections\/bring-comfort-home"
+          }
+        },
+        "d8422e24-a213-45b2-ba58-ec60cb119527": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.5_Bring_Comfort_Home_-_Web_Banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/1.5_Bring_Comfort_Home_-_Phone_Banner.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/bring-comfort-home",
             "button_2_text": "",
             "button_2_link": ""
           }
@@ -36,6 +51,7 @@
         },
         "8a193e88-0eed-4877-b7b1-c61f90b422a9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/storage_baskets_launch_banner_mob_preview_1.jpg",
@@ -49,23 +65,9 @@
             "button_2_link": "shopify:\/\/collections\/storage-baskets"
           }
         },
-        "043a9683-46a7-48ea-b590-e3f3ca91ce65": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Learn_laugh_play_baby_Play_mats_banner_1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Learn_laugh_play_baby_Play_mats_Phone_banner.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/the-little-bedroom",
-            "button_2_text": "",
-            "button_2_link": "shopify:\/\/collections\/the-little-bedroom"
-          }
-        },
         "920b4f36-55cd-4f3e-abea-082258858729": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/printed_blankets_02.jpg",
             "mobile_image": "shopify:\/\/shop_images\/printed_blankets_02_mob_view.jpg",
@@ -81,10 +83,10 @@
         }
       },
       "block_order": [
+        "043a9683-46a7-48ea-b590-e3f3ca91ce65",
         "d8422e24-a213-45b2-ba58-ec60cb119527",
         "d64172e9-ea3c-41aa-8c49-fd95627cac8a",
         "8a193e88-0eed-4877-b7b1-c61f90b422a9",
-        "043a9683-46a7-48ea-b590-e3f3ca91ce65",
         "920b4f36-55cd-4f3e-abea-082258858729"
       ],
       "settings": {
