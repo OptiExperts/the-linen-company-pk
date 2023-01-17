@@ -6,8 +6,8 @@
         "043a9683-46a7-48ea-b590-e3f3ca91ce65": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_Bring_Comfort_Home_-_Web_Banner.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/2_Bring_Comfort_Home_-_Phone_Banner.jpg",
+            "image": "shopify:\/\/shop_images\/1_Bring_Comfort_Home_-_Web_Banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/1_Bring_Comfort_Home_-_Phone_Banner.jpg",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
