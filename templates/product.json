@@ -23,7 +23,7 @@
             "selector_mode": "block",
             "show_color_swatch": true,
             "show_color_carousel": true,
-            "size_chart": ""
+            "size_chart": "size-chart"
           }
         },
         "quantity_selector": {
