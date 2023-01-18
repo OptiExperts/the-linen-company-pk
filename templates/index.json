@@ -269,6 +269,17 @@
     "3add1ef5-b864-4a4d-b73c-ffd6262674f3": {
       "type": "timeline",
       "blocks": {
+        "4a2b2723-ea8c-4688-a486-2c8a0e87c847": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16_-_frosted_ice_waffle_duvet_cover_set_02_1000x_97aa6a5b-cbc9-4abc-b5f4-a297671930ce.webp",
+            "apply_overlay": true,
+            "title": "Design",
+            "subheading": "WE'RE ALL ABOUT",
+            "heading": "DESIGN",
+            "content": "<p><\/p><p>We take pride in having more bedding design combinations than any other retailer in the world. Mix and match our various styles to create your ideal bed.<\/p><p>That’s why we like to say, <em>'Make your bed, yours.'<\/em><\/p>"
+          }
+        },
         "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-0": {
           "type": "item",
           "settings": {
@@ -278,17 +289,6 @@
             "subheading": "WE'RE ALL ABOUT",
             "heading": "DIRECT TO CONSUMER",
             "content": "<p><\/p><p>Unlike other DTC brands who buy their products from factories to resell at a higher markup, we make our sheets in our family-owned factory. No distributor or retailer mark-ups. You get the best quality for the best price, always.<\/p>"
-          }
-        },
-        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1200_1_Pink_Oeko_tex_1000x_c5b89996-5910-4f58-99fd-eec5a18e548f.webp",
-            "apply_overlay": true,
-            "title": "SUSTAINABILITY",
-            "subheading": "WE'RE ALL ABOUT",
-            "heading": "SUSTAINABILITY",
-            "content": "<p>Our bed sheets have the highest possible rating from OEKO-TEX; Made In Green. This means that they don’t contain any harmful chemicals, are made in environmentally friendly facilities, and also made in a safe and socially responsible workplace.<\/p>"
           }
         },
         "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-2": {
@@ -302,23 +302,23 @@
             "content": "<p><\/p><p>Our mission is to make the world’s most comfortable bedding products. From our unique tencel and bamboo blends to how we weave the highest quality cotton, our R&D team is always hard at work to introduce the latest fabric technologies.<\/p>"
           }
         },
-        "4a2b2723-ea8c-4688-a486-2c8a0e87c847": {
+        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/16_-_frosted_ice_waffle_duvet_cover_set_02_1000x_97aa6a5b-cbc9-4abc-b5f4-a297671930ce.webp",
+            "image": "shopify:\/\/shop_images\/1200_1_Pink_Oeko_tex_1000x_c5b89996-5910-4f58-99fd-eec5a18e548f.webp",
             "apply_overlay": true,
-            "title": "Design",
+            "title": "SUSTAINABILITY",
             "subheading": "WE'RE ALL ABOUT",
-            "heading": "DESIGN",
-            "content": "<p><\/p><p>We take pride in having more bedding design combinations than any other retailer in the world. Mix and match our various styles to create your ideal bed.<\/p><p>That’s why we like to say, <em>'Make your bed, yours.'<\/em><\/p>"
+            "heading": "SUSTAINABILITY",
+            "content": "<p>Our bed sheets have the highest possible rating from OEKO-TEX; Made In Green. This means that they don’t contain any harmful chemicals, are made in environmentally friendly facilities, and also made in a safe and socially responsible workplace.<\/p>"
           }
         }
       },
       "block_order": [
+        "4a2b2723-ea8c-4688-a486-2c8a0e87c847",
         "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-0",
-        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-1",
         "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-2",
-        "4a2b2723-ea8c-4688-a486-2c8a0e87c847"
+        "template--16697584550147__3add1ef5-b864-4a4d-b73c-ffd6262674f3-1673531848a7242904-1"
       ],
       "settings": {
         "text_color": "#ffffff"
