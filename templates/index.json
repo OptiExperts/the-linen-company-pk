@@ -180,6 +180,22 @@
     "9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728": {
       "type": "shop-the-look",
       "blocks": {
+        "2c12f3fa-9085-4eef-bb63-0ea35d0b3b66": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mustard_gauze_baby_blanket_02.png",
+            "dot_style": "light",
+            "product_1": "terracotta-cotton-muslin-baby-wrap",
+            "product_1_horizontal_position": 75,
+            "product_1_vertical_position": 76,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 85,
+            "product_3_vertical_position": 85
+          }
+        },
         "template--16697584550147__9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728-1673531848c9e8090c-0": {
           "type": "look",
           "settings": {
@@ -211,28 +227,12 @@
             "product_3_horizontal_position": 85,
             "product_3_vertical_position": 85
           }
-        },
-        "2c12f3fa-9085-4eef-bb63-0ea35d0b3b66": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mustard_gauze_baby_blanket_02.png",
-            "dot_style": "light",
-            "product_1": "terracotta-cotton-muslin-baby-wrap",
-            "product_1_horizontal_position": 75,
-            "product_1_vertical_position": 76,
-            "product_2": "",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 50,
-            "product_3": "",
-            "product_3_horizontal_position": 85,
-            "product_3_vertical_position": 85
-          }
         }
       },
       "block_order": [
+        "2c12f3fa-9085-4eef-bb63-0ea35d0b3b66",
         "template--16697584550147__9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728-1673531848c9e8090c-0",
-        "387fd549-8c94-4265-9a3c-eb6df92f1ab5",
-        "2c12f3fa-9085-4eef-bb63-0ea35d0b3b66"
+        "387fd549-8c94-4265-9a3c-eb6df92f1ab5"
       ],
       "settings": {
         "subheading": "Shop",
