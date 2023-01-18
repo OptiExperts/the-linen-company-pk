@@ -149,6 +149,14 @@
             "text": "Sheet Sets"
           }
         },
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-3": {
+          "type": "category",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Plum_Waffle.jpg",
+            "link": "shopify:\/\/collections\/waffles-collection",
+            "text": "Waffle"
+          }
+        },
         "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-2": {
           "type": "category",
           "settings": {
@@ -156,21 +164,13 @@
             "link": "shopify:\/\/collections\/blankets",
             "text": "Blankets"
           }
-        },
-        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-3": {
-          "type": "category",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/16_-_frosted_ice_waffle_duvet_cover_set_02_1000x_97aa6a5b-cbc9-4abc-b5f4-a297671930ce.webp",
-            "link": "shopify:\/\/collections\/waffles-collection",
-            "text": "Waffle"
-          }
         }
       },
       "block_order": [
         "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-0",
         "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-1",
-        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-2",
-        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-3"
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-3",
+        "template--16697584550147__2ed3a644-f558-4afe-ace8-887241fbc3b7-1673515270b0936893-2"
       ],
       "settings": {
         "background": "#eaeaea",
