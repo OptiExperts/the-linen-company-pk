@@ -4,7 +4,7 @@
       "type": "main-cart",
       "settings": {
         "show_shipping_estimator": true,
-        "shipping_estimator_default_country": ""
+        "shipping_estimator_default_country": "Pakistan"
       }
     },
     "recently-viewed-products": {
