@@ -52,6 +52,14 @@
             "page": ""
           }
         },
+        "ee6f56fa-8162-4483-b149-db3826442dfe": {
+          "type": "content",
+          "settings": {
+            "title": "Returns & Exchanges",
+            "content": "",
+            "page": "returns-exchanges"
+          }
+        },
         "6301f449-5362-4570-a10a-a5c579622145": {
           "type": "content",
           "settings": {
@@ -82,6 +90,7 @@
         "buy_buttons",
         "description",
         "71f3545e-3f38-4d77-b90a-fccd5513d55a",
+        "ee6f56fa-8162-4483-b149-db3826442dfe",
         "6301f449-5362-4570-a10a-a5c579622145",
         "31ab5326-ddeb-4a04-8647-6db6e4a95640",
         "44019c67-0763-421b-9f76-67a2dd34a2bd"
