@@ -286,7 +286,7 @@
 <script id="docapp-free-item-speedup">
 (() => { if (!document.documentElement.innerHTML.includes('\\/shop' + '\\/js' + '\\/free-gift-cart-upsell-pro.min.js') || window.freeGiftCartUpsellProAppLoaded) return; let script = document.createElement('script'); script.src = "https://d2fk970j0emtue.cloudfront.net/shop/js/free-gift-cart-upsell-pro.min.js?shop=thelinencompany.myshopify.com"; document.getElementById('docapp-free-item-speedup').after(script); })();
 </script>
-</head>
+{% include 'sm-red' %}</head>
 
   {%- capture classes -%}features--heading-{{ settings.heading_size }}{%- endcapture -%}
 
