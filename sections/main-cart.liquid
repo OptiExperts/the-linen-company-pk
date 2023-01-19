@@ -68,7 +68,7 @@
                 {%- endfor -%}
               {%- endif -%}
 
-              <p class="Cart__Total Heading u-h6">{{ 'cart.general.total' | t }}: <span>{{ cart.total_price }} Rs</span></p>
+              <p class="Cart__Total Heading u-h6">{{ 'cart.general.total' | t }}: <span>{{ cart.total_price | money_with_currency }}</span></p>
 
               {%- if shipping_and_taxes_notice != blank -%}
                 <p class="Cart__Taxes Text--subdued">{{ shipping_and_taxes_notice }}</p>
