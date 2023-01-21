@@ -27,7 +27,7 @@
     "text_font": "montserrat_n4",
     "base_text_font_size": 13,
     "currency_code_enabled": false,
-    "color_swatch_config": "Black:#000000\nOrange:#DB9214\nGreen:#33620E\nRed:#FF0000\nBlue:#0000FF\nGolden:#E1C564\nBrown:#964B00\nMist:#B7D6AF\nIvory:#F8F0C6\nlight grey:#d3d3d3\nsoft pink:#A99091\nsand:#CCC3B3",
+    "color_swatch_config": "Black:#000000\nOrange:#DB9214\nGreen:#33620E\nRed:#FF0000\nBlue:#0000FF\nGolden:#E1C564\nBrown:#964B00\nMist:#B7D6AF\nIvory:#F8F0C6\nlight grey:#d3d3d3\nsoft pink:#A99091\nsand:#CCC3B3\ncharcoal:#4E4E4E",
     "show_page_transition": false,
     "show_button_transition": false,
     "search_mode": "product,article",
@@ -211,12 +211,6 @@
         "disabled": true,
         "settings": {
           "position": "right"
-        }
-      },
-      "12440966767595914869": {
-        "type": "shopify:\/\/apps\/sales-motivator-free-gifts\/blocks\/app-block\/790f143d-f67c-4036-9b09-2d69c24dd826",
-        "disabled": true,
-        "settings": {
         }
       },
       "1486654112309516955": {
