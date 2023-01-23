@@ -343,11 +343,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Customer_Reviews.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Customer_Reviews.jpg",
-            "apply_overlay": false,
+            "apply_overlay": true,
             "content_position": "middleCenter",
-            "subheading": "",
-            "title": "☆☆☆☆☆",
-            "button_1_text": "Customer Reviews",
+            "subheading": "☆☆☆☆☆",
+            "title": "Find out why our customers keep coming back",
+            "button_1_text": "Read reviews",
             "button_1_link": "shopify:\/\/pages\/reviews",
             "button_2_text": "",
             "button_2_link": ""
