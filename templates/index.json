@@ -245,20 +245,31 @@
       "blocks": {
         "template--16697584550147__3c395f23-103b-4ade-aee8-91b2610048ea-1673516022564ad959-0": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "bedding",
             "title": "",
             "grid_items_count": 4,
             "button_text": "View all products"
           }
+        },
+        "fa3e244e-27e4-49d1-8630-c1cd8e5fa0b4": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "title": "",
+            "grid_items_count": 8,
+            "button_text": "View all products"
+          }
         }
       },
       "block_order": [
-        "template--16697584550147__3c395f23-103b-4ade-aee8-91b2610048ea-1673516022564ad959-0"
+        "template--16697584550147__3c395f23-103b-4ade-aee8-91b2610048ea-1673516022564ad959-0",
+        "fa3e244e-27e4-49d1-8630-c1cd8e5fa0b4"
       ],
       "settings": {
-        "title": "Featured collection",
-        "layout_mode": "grid",
+        "title": "SHOP",
+        "layout_mode": "carousel",
         "show_product_info": true,
         "show_vendor": false,
         "show_color_swatch": false,
