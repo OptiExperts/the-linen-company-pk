@@ -135,140 +135,141 @@ C255,161.018,253.42,157.202,250.606,154.389z"/>
       </div>
     {%- endif -%}
 
-    <div class="Footer__Aside">
-      {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
-        {%- assign country_selector = true -%}
-      {%- endif -%}
 
-      {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
-        {%- assign locale_selector = true -%}
-      {%- endif -%}
+  </div>
+  <div  class="Footer__Aside">
+    {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
+      {%- assign country_selector = true -%}
+    {%- endif -%}
 
-      {%- if locale_selector or country_selector -%}
-        <div style="display: none;" class="Footer__Localization">
-          {%- form 'localization', id: 'localization_form_footer', class: 'Footer__LocalizationForm' -%}
-            {%- if country_selector -%}
-              <div class="Footer__LocalizationItem">
-                <input
-                  type="hidden"
-                  name="country_code"
-                  value="{{ localization.country.iso_code }}">
-                <span class="u-visually-hidden">{{ 'footer.general.country' | t }}</span>
+    {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
+      {%- assign locale_selector = true -%}
+    {%- endif -%}
 
-                <button
-                  type="button"
-                  class="SelectButton Link Link--primary u-h8"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  aria-controls="footer-currency-popover">
-                  {{- localization.country.name }} ({{ localization.country.currency.iso_code }}
-                  {% if localization.country.currency.symbol %}
-                    {{ localization.country.currency.symbol }}{%- endif -%})
-                  {%- render 'icon', icon: 'select-arrow' -%}
-                </button>
+    {%- if locale_selector or country_selector -%}
+      <div style="display:none" class="Footer__Localization">
+        {%- form 'localization', id: 'localization_form_footer', class: 'Footer__LocalizationForm' -%}
+          {%- if country_selector -%}
+            <div class="Footer__LocalizationItem">
+              <input
+                type="hidden"
+                name="country_code"
+                value="{{ localization.country.iso_code }}">
+              <span class="u-visually-hidden">{{ 'footer.general.country' | t }}</span>
 
-                <div
-                  id="footer-currency-popover"
-                  class="Popover Popover--small Popover--noWrap"
-                  aria-hidden="true">
-                  <header class="Popover__Header">
-                    <button
-                      type="button"
-                      class="Popover__Close Icon-Wrapper--clickable"
-                      data-action="close-popover">{% render 'icon' with 'close' %}</button>
-                    <span class="Popover__Title Heading u-h4">{{ 'footer.general.country' | t }}</span>
-                  </header>
+              <button
+                type="button"
+                class="SelectButton Link Link--primary u-h8"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-controls="footer-currency-popover">
+                {{- localization.country.name }} ({{ localization.country.currency.iso_code }}
+                {% if localization.country.currency.symbol %}
+                  {{ localization.country.currency.symbol }}{%- endif -%})
+                {%- render 'icon', icon: 'select-arrow' -%}
+              </button>
 
-                  <div class="Popover__Content">
-                    <div class="Popover__ValueList Popover__ValueList--center" data-scrollable>
-                      {%- for country in localization.available_countries -%}
-                        <button
-                          type="submit"
-                          name="country_code"
-                          class="Popover__Value {% if country.iso_code == localization.country.iso_code %}is-selected{% endif %} Heading Link Link--primary u-h6"
-                          value="{{ country.iso_code }}"
-                          {% if country.iso_code == localization.country.iso_code %}aria-current="true"{% endif %}>
-                          {{- country.name }} ({{ country.currency.iso_code }}
-                          {% if country.currency.symbol %}
-                            {{ country.currency.symbol }}{%- endif -%})
-                        </button>
-                      {%- endfor -%}
-                    </div>
+              <div
+                id="footer-currency-popover"
+                class="Popover Popover--small Popover--noWrap"
+                aria-hidden="true">
+                <header class="Popover__Header">
+                  <button
+                    type="button"
+                    class="Popover__Close Icon-Wrapper--clickable"
+                    data-action="close-popover">{% render 'icon' with 'close' %}</button>
+                  <span class="Popover__Title Heading u-h4">{{ 'footer.general.country' | t }}</span>
+                </header>
+
+                <div class="Popover__Content">
+                  <div class="Popover__ValueList Popover__ValueList--center" data-scrollable>
+                    {%- for country in localization.available_countries -%}
+                      <button
+                        type="submit"
+                        name="country_code"
+                        class="Popover__Value {% if country.iso_code == localization.country.iso_code %}is-selected{% endif %} Heading Link Link--primary u-h6"
+                        value="{{ country.iso_code }}"
+                        {% if country.iso_code == localization.country.iso_code %}aria-current="true"{% endif %}>
+                        {{- country.name }} ({{ country.currency.iso_code }}
+                        {% if country.currency.symbol %}
+                          {{ country.currency.symbol }}{%- endif -%})
+                      </button>
+                    {%- endfor -%}
                   </div>
                 </div>
               </div>
-            {%- endif -%}
+            </div>
+          {%- endif -%}
 
-            {%- if locale_selector -%}
-              <div class="Footer__LocalizationItem">
-                <input
-                  type="hidden"
-                  name="locale_code"
-                  value="{{ localization.language.iso_code }}">
-                <span class="u-visually-hidden">{{ 'footer.general.locale' | t }}</span>
+          {%- if locale_selector -%}
+            <div class="Footer__LocalizationItem">
+              <input
+                type="hidden"
+                name="locale_code"
+                value="{{ localization.language.iso_code }}">
+              <span class="u-visually-hidden">{{ 'footer.general.locale' | t }}</span>
 
-                <button
-                  type="button"
-                  class="SelectButton Link Link--primary u-h8"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  aria-controls="footer-locale-popover">
-                  {{- localization.language.endonym_name -}}
-                  {%- render 'icon', icon: 'select-arrow' -%}
-                </button>
+              <button
+                type="button"
+                class="SelectButton Link Link--primary u-h8"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-controls="footer-locale-popover">
+                {{- localization.language.endonym_name -}}
+                {%- render 'icon', icon: 'select-arrow' -%}
+              </button>
 
-                <div
-                  id="footer-locale-popover"
-                  class="Popover Popover--small Popover--noWrap"
-                  aria-hidden="true">
-                  <header class="Popover__Header">
-                    <button
-                      type="button"
-                      class="Popover__Close Icon-Wrapper--clickable"
-                      data-action="close-popover">{% render 'icon' with 'close' %}</button>
-                    <span class="Popover__Title Heading u-h4">{{ 'footer.general.locale' | t }}</span>
-                  </header>
+              <div
+                id="footer-locale-popover"
+                class="Popover Popover--small Popover--noWrap"
+                aria-hidden="true">
+                <header class="Popover__Header">
+                  <button
+                    type="button"
+                    class="Popover__Close Icon-Wrapper--clickable"
+                    data-action="close-popover">{% render 'icon' with 'close' %}</button>
+                  <span class="Popover__Title Heading u-h4">{{ 'footer.general.locale' | t }}</span>
+                </header>
 
-                  <div class="Popover__Content">
-                    <div class="Popover__ValueList Popover__ValueList--center" data-scrollable>
-                      {%- for language in localization.available_languages -%}
-                        <button
-                          type="submit"
-                          name="locale_code"
-                          class="Popover__Value {% if language.iso_code == localization.language.iso_code %}is-selected{% endif %} Heading Link Link--primary u-h6"
-                          value="{{ language.iso_code }}"
-                          {% if language.iso_code == localization.language.iso_code %}aria-current="true"{% endif %}>
-                          {{- language.endonym_name | capitalize -}}
-                        </button>
-                      {%- endfor -%}
-                    </div>
+                <div class="Popover__Content">
+                  <div class="Popover__ValueList Popover__ValueList--center" data-scrollable>
+                    {%- for language in localization.available_languages -%}
+                      <button
+                        type="submit"
+                        name="locale_code"
+                        class="Popover__Value {% if language.iso_code == localization.language.iso_code %}is-selected{% endif %} Heading Link Link--primary u-h6"
+                        value="{{ language.iso_code }}"
+                        {% if language.iso_code == localization.language.iso_code %}aria-current="true"{% endif %}>
+                        {{- language.endonym_name | capitalize -}}
+                      </button>
+                    {%- endfor -%}
                   </div>
                 </div>
               </div>
-            {%- endif -%}
-          {%- endform -%}
-        </div>
-      {%- endif -%}
-
-      <div class="Footer__Copyright">
-        <a href="{{ routes.root_url }}" class="Footer__StoreName Heading u-h7 Link Link--secondary">© {{ shop.name }}</a>
-
+            </div>
+          {%- endif -%}
+        {%- endform -%}
       </div>
+    {%- endif -%} 
 
-      {%- if section.settings.show_payment_methods -%}
-        {%- capture payment_methods -%}
-          {%- for type in shop.enabled_payment_types -%}
-            <li class="HorizontalList__Item">{{ type | payment_type_svg_tag }}</li>
-          {%- endfor -%}
-        {%- endcapture -%}
+    <div class="Footer__Copyright">
+      <a href="{{ routes.root_url }}" class="Footer__StoreName Heading u-h7 Link Link--secondary">© {{ shop.name }}</a>
 
-        {%- if payment_methods != blank -%}
-          <ul class="Footer__PaymentList HorizontalList">
-            {{ payment_methods }}
-          </ul>
-        {%- endif -%}
-      {%- endif -%}
     </div>
+
+    {%- if section.settings.show_payment_methods -%}
+      {%- capture payment_methods -%}
+        {%- for type in shop.enabled_payment_types -%}
+          <li class="HorizontalList__Item">{{ type | payment_type_svg_tag }}</li>
+        {%- endfor -%}
+      {%- endcapture -%}
+
+      {%- if payment_methods != blank -%}
+        <ul class="Footer__PaymentList HorizontalList">
+          {{ payment_methods }}
+        </ul>
+      {%- endif -%}
+    {%- endif -%}
   </div>
 </footer>
 
