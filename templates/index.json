@@ -341,8 +341,8 @@
         "template--16697584550147__4321c6d9-4e53-41d0-89ec-b7759a321be4-16735331020c89bf65-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Customer_Reviews.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Customer_Reviews.jpg",
+            "image": "shopify:\/\/shop_images\/customer_review_banner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/customer_review_banner.jpg",
             "apply_overlay": true,
             "content_position": "middleCenter",
             "subheading": "☆☆☆☆☆",
