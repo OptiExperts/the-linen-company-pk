@@ -1,8 +1,8 @@
 <div class="container">
   <div class="ao_custom_category_wrapper">
     <h3 style="text-align:left; padding:0px 5px; font-size: 23px;
-                margin-top: 30px;
-                font-weight: 600;">SHOP BY CATEGORY</h3>
+          margin-top: 30px;
+          font-weight: 600;">SHOP BY CATEGORY</h3>
 
     <div class="ao_custom_category_container">
       {% for block in section.blocks %}
@@ -18,6 +18,9 @@
   </div>
 </div>
 <style>
+  h2.cat-font {
+    letter-spacing: 3px;
+  }
   @media(min-width: 200px) and (max-width: 550px) {
     .cat-font {
       font-size: 13px !important;
@@ -38,7 +41,7 @@
     flex-wrap: wrap;
   }
   .ao_custom_category_item {
-    padding: 5px;
+    padding: 30px;
     width: 25%;
   }
   .ao_custom_category_item_image {
