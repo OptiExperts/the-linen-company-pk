@@ -342,7 +342,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Customer_Reviews.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Capture_54fb084c-549b-49de-8b95-6127344ebd1a.png",
+            "mobile_image": "shopify:\/\/shop_images\/Customer_Reviews.jpg",
             "apply_overlay": true,
             "content_position": "middleCenter",
             "subheading": "☆☆☆☆☆",
@@ -358,7 +358,7 @@
         "template--16697584550147__4321c6d9-4e53-41d0-89ec-b7759a321be4-16735331020c89bf65-0"
       ],
       "settings": {
-        "show_fullscreen": true,
+        "show_fullscreen": false,
         "show_arrow": false,
         "autoplay": true,
         "cycle_speed": 5,
