@@ -8,7 +8,7 @@
       {% for block in section.blocks %}
         <div class="ao_custom_category_item">
           <a style="text-decoration:none" href="{{ block.settings.link }}">
-            <div class="ao_custom_category_item_image" style="background-image:url({{ block.settings.logo | img_url: '1000x' }})"></div>
+            <div class="ao_custom_category_item_image" style="background-size: 326px 500px; background-image:url({{ block.settings.logo | img_url: '1000x' }})"></div>
             <h2 class="cat-font">{{ block.settings.text }}</h2>
           </a>
         </div>
