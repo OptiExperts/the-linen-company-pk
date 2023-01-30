@@ -92,11 +92,11 @@
           "ca3815f3-fdf4-4d47-b133-7048f587beb4"
         ],
         "settings": {
-          "use_sticky_header": true,
+          "use_sticky_header": false,
           "logo": "shopify:\/\/shop_images\/Untitled_design_1_93aff02e-f79c-4d3f-a47d-dc14e65d5f5c.png",
           "logo_max_width": 235,
           "mobile_logo_max_width": 150,
-          "show_country_selector": true,
+          "show_country_selector": false,
           "show_locale_selector": true,
           "navigation_menu": "main-final",
           "navigation_style": "inline",
