@@ -3,21 +3,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "8a193e88-0eed-4877-b7b1-c61f90b422a9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/free_pillowcase.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/free_pillowcase_mob_preview.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/bedding",
-            "button_2_text": "",
-            "button_2_link": "shopify:\/\/collections\/bedding"
-          }
-        },
         "043a9683-46a7-48ea-b590-e3f3ca91ce65": {
           "type": "image",
           "settings": {
@@ -31,6 +16,21 @@
             "button_1_link": "shopify:\/\/collections\/bring-comfort-home",
             "button_2_text": "",
             "button_2_link": "shopify:\/\/collections\/bring-comfort-home"
+          }
+        },
+        "8a193e88-0eed-4877-b7b1-c61f90b422a9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free_pillowcase.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/free_pillowcase_mob_preview.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/bedding",
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/collections\/bedding"
           }
         },
         "d8422e24-a213-45b2-ba58-ec60cb119527": {
@@ -81,8 +81,8 @@
         }
       },
       "block_order": [
-        "8a193e88-0eed-4877-b7b1-c61f90b422a9",
         "043a9683-46a7-48ea-b590-e3f3ca91ce65",
+        "8a193e88-0eed-4877-b7b1-c61f90b422a9",
         "d8422e24-a213-45b2-ba58-ec60cb119527",
         "d64172e9-ea3c-41aa-8c49-fd95627cac8a",
         "920b4f36-55cd-4f3e-abea-082258858729"
