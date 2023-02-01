@@ -64,8 +64,8 @@
         "settings": {
           "enable_bar": true,
           "home_page_only": false,
-          "background": "#244e3d",
-          "text_color": "#faf8f4",
+          "background": "#131313",
+          "text_color": "#efefef",
           "content": "FREE SHIPPING FOR ORDERS RS. 2,000+ | free gift for order Rs. 5,000+",
           "link": ""
         }
