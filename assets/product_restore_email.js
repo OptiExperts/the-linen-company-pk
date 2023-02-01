@@ -30,7 +30,16 @@
   let collVariants = []
   let observer = null
   let oldCollElsCount = 0
+  let proPosition = []
   let locale
+  let customStyle = ''
+
+  if (typeof ShopifyAnalytics === 'undefined') {
+    await new Promise((res, rej) => {
+      setTimeout(() => { res() }, 1500)
+    })
+  }
+
   if (ShopifyAnalytics.meta.product) {
     productId = ShopifyAnalytics.meta.product.id;
   }
@@ -40,17 +49,11 @@
   } else if (window.ShopifyAnalytics && ShopifyAnalytics.lib && ShopifyAnalytics.lib.config) {
     shopId = ShopifyAnalytics.lib.config.Trekkie.defaultAttributes.shopId
   }
-  if(shopId == 58438582481){
-    //因为这个店铺切换语言Shopify.locale的值不会变,所以要直接获取语言选择器里面的值
-    const languageSelector = q('.notranslate');
-    const languageNode = languageSelector.querySelector('.selected');
-    locale = languageNode.alt;
-    const config = { attributes: true, childList: true, subtree: true };
-    observer = new MutationObserver(shopLanguageCallback);
-    observer.observe(languageNode, config);
-  }else{
-    locale = Shopify.locale;
-  }
+
+  userNeed()
+
+  locale = Shopify.locale;
+
   // Mark 相关请求
   let requests = {
     getProsVariantsData(p) {
@@ -244,7 +247,8 @@
         products.forEach((i, inx) => {
           if (i.productStatus === 1) {
             insertEls.push(prosEle[inx])
-            collVariants.push({ proId: i.productId, variants: i.variants })
+            proPosition.push(inx)
+            collVariants.push({ proId: i.productId, productName: i.productName, variants: i.variants })
           }
         })
       }
@@ -330,13 +334,13 @@
       case 887: case 1567: case 1356: case 1363:
       case 1368: case 1431: case 1434: case 1500:
       case 1499: {
-        // selector = '.card-information>.price'; break
-        selector = '.grid__item .card';
-        const el = qa(selector);
-        el.forEach(eachEl => {
-          eachEl.style.height = 'unset';
-          eachEl.style.position = 'relative';
-        });
+        selector = '.card-information .price';
+        // selector = '.grid__item .card';
+        // const el = qa(selector);
+        // el.forEach(eachEl => {
+        //   eachEl.style.height = 'unset';
+        //   eachEl.style.position = 'relative';
+        // });
         break
       }
       case 829: { // Narrative
@@ -359,6 +363,9 @@
       }
       case 578: { //Simple
         selector = '.grid__item .product__prices'; break
+      }
+      case 857: {
+        selector = '.grid__item .grid-product__price'; break
       }
       default: {
         // Warehouse主题
@@ -800,14 +807,22 @@
       if (isProPage) {
         insertEl = q(btn_insert_el) || soldOutBtn;
       } else if (isCollPage) {
-        insertEls = qa(btn_insert_el)
+        insertEls = qa(btn_insert_el);
+        insertEls = Array.from(insertEls);
+        let insertElsCopy = insertEls;
+        insertEls = [];
+        for (let inx = 0; inx < insertElsCopy.length; inx++) {
+          if (proPosition.includes(inx)) {
+            insertEls.push(insertElsCopy[inx]);
+          }
+        }
       }
       insertType = btn_insert_type || 'afterend';
     }
 
     if (isProPage) {
       const isBlcok = q("#sealapps-bis-widget");
-      if(isBlcok){
+      if (isBlcok) {
         insertEl = isBlcok;
         insertType = 'beforeend'
       }
@@ -880,6 +895,10 @@
         Object.keys(generalData).forEach(key => {
           generalData[key] = data[key];
         });
+        if (isCollPage) {
+          generalData.btn_font_family =
+            generalData.btn_font_weight = 'inherit'
+        }
         renderSettingStyles();
         changeButtonPos();
       }
@@ -1123,6 +1142,8 @@
             const wrapper = document.createElement('div')
             wrapper.setAttribute('proId', collVariants[inx].proId)
             wrapper.innerHTML = mountInlineBtn
+            wrapper.style.position = 'relative';
+            wrapper.style.zIndex = '1';
             i.after(wrapper)
           })
           flag++;
@@ -1386,11 +1407,11 @@
   function autoInput() {
     if (JSON.stringify(customerInfo) != "{}") {
       nameInput.value = customerInfo.name;
-      if(emailInput){
+      if (emailInput) {
         emailInput.value = customerInfo.email;
       }
-      if(smsInput){
-        smsInput.value = customerInfo.phone.replace(/[^0-9]/g,'');
+      if (smsInput) {
+        smsInput.value = customerInfo.phone.replace(/[^0-9]/g, '');
       }
     }
   }
@@ -1409,7 +1430,10 @@
 
       // 如果variantData存在此变体id则该变体需要展示按钮
       if ((showVariants.includes(String(variantData[i].id)) && isProPage) || isCollPage) {
-        if (variantData[i]['title'] === 'Default Title') {
+        if (isCollPage) {
+          collRednerProName(variantData[i].productRid);
+        }
+        if (variantData[i][title] === 'Default Title') {
           variantSelector.style.display = 'none';
         }
         unVariantOptions[optionIndex] = create({
@@ -1460,9 +1484,9 @@
     // 选择要观察变动的节点
     let targetNode
     if (isProPage) {
-      if(shopId == 55013703857){
+      if (shopId == 55013703857) {
         targetNode = q('.select-selected, select[name=id]');
-      }else{
+      } else {
         targetNode = q('input[name=id], select[name=id]');
       }
     } else if (isCollPage) {
@@ -1485,10 +1509,10 @@
     if (isProPage) {
       debug && console.log('监听到元素变化，检查variant变化');
       let curVariantId;
-      if(shopId == 55013703857){
+      if (shopId == 55013703857) {
         const selectedTitle = q('.select-selected').innerText;
         curVariantId = variantData.find(o => o.title == selectedTitle).id;
-      }else{
+      } else {
         curVariantId = q('input[name=id], select[name=id]').value;
       }
       handleVariantChange(curVariantId);
@@ -1722,7 +1746,7 @@
     const url = baseUrl + 'api/v1/sns/insCustomerSnsInfo';
     submitBtn.parentElement.className = 'frame-submit loading';
     request(url, params).then(res => {
-      const { code } = res;
+      const { code, message } = res;
       if (code === 200) {
         emailFrameElement.style.display = 'none';
         successFrame.classList.add('successSub_active');
@@ -1738,7 +1762,7 @@
         invalidTip.innerHTML = popupData.popup_validation_text;
       } else {
         invalidTip.style.visibility = 'visible';
-        invalidTip.innerHTML = 'Oops, submission failed. Please try again later.';
+        invalidTip.innerHTML = message;
       }
     }).finally(() => {
       submitBtn.parentElement.className = 'frame-submit';
@@ -1760,7 +1784,7 @@
     const url = baseUrl + 'api/v1/email/insCustomerEmailInfo';
     submitBtn.parentElement.className = 'frame-submit loading';
     request(url, params).then(res => {
-      const { code } = res;
+      const { code, message } = res;
       if (code === 200) {
         emailFrameElement.style.display = 'none';
         successFrame.classList.add('successSub_active');
@@ -1776,7 +1800,7 @@
         invalidTip.innerHTML = popupData.popup_validation_text;
       } else {
         invalidTip.style.visibility = 'visible';
-        invalidTip.innerHTML = 'Oops, submission failed. Please try again later.';
+        invalidTip.innerHTML = message;
       }
     }).finally(() => {
       submitBtn.parentElement.className = 'frame-submit';
@@ -1786,7 +1810,7 @@
   function formatPhoneNumber(num) {
     const code = iti.getSelectedCountryData().dialCode;
     //把开头为0的过滤
-    num = num.replace(/\b(0+)/gi,"");
+    num = num.replace(/\b(0+)/gi, "");
     if (!num.startsWith(code)) {
       // 如果电话不是以区号开头的，直接拼接区号并返回
       return (code + num);
@@ -1805,7 +1829,7 @@
     const emailTypeBtn = q('.email-type');
     const smsTypeBtn = q('.sms-type');
     const regionFlag = q('.iti--allow-dropdown');
-    if(!regionFlag){
+    if (!regionFlag) {
       initPhoneInput().then(res => {
         if (res.code === 200 && popupData.popup_option === 3) {
           selectedType = new Proxy({ type: 'email' }, {
@@ -2089,6 +2113,7 @@
       --sa-btn-hover-bgc: #f6f6f7;
       --sa-input-padding: 8px;
     }
+    ${customStyle}
     #email-me-frame * {
         box-sizing: border-box;
     }
@@ -2700,4 +2725,20 @@
     locale = languageEl.alt;
   }
 
+  function collRednerProName(curProId) {
+    productTitle = collVariants.find(i => i.proId == curProId).productName;
+    const productTitleEl = q('.frame-body-content');
+    productTitleEl.innerText = productTitle;
+  }
+
+  // Mark 用户需求
+  function userNeed() {
+    switch (shopId) {
+      case 55605198922: {
+        customStyle += `#email-me-frame .frame-title, #email-me-frame input {
+        font-family: 'Sabon Next';
+        }`; break
+      }
+    }
+  }
 })();
