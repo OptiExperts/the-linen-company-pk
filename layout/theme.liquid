@@ -181,17 +181,7 @@
 <link rel="preload" href="https://fonts.shopifycdn.com/montserrat/montserrat_i4.ae02483b3d5e8777d0d4a4ccf396482c364d8955.woff2?h1=dGhlbGluZW4uY28&h2=d3d3LnBrLnRoZWxpbmVuLmNvbXBhbnk&h3=cGstdGhlbGluZW5jb21wYW55Lm15c2hvcGlmeS5jb20&hmac=d986c3b81953f86b71d09489df121440388a42b2f8c0ecce360d2f74d66d4e51" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="https://fonts.shopifycdn.com/montserrat/montserrat_n7.78b0223375c94b39ce1af7e09a0225f2bb3d05f7.woff?h1=dGhlbGluZW4uY28&h2=d3d3LnBrLnRoZWxpbmVuLmNvbXBhbnk&h3=cGstdGhlbGluZW5jb21wYW55Lm15c2hvcGlmeS5jb20&hmac=b16dab04737e458e90b2c77461067bb8d48c8bc30bef2da679d128c0780a8f97" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="https://fonts.shopifycdn.com/montserrat/montserrat_i4.ba28d1a04ec09448de486d83c63235903dfc0af8.woff?h1=dGhlbGluZW4uY28&h2=d3d3LnBrLnRoZWxpbmVuLmNvbXBhbnk&h3=cGstdGhlbGluZW5jb21wYW55Lm15c2hvcGlmeS5jb20&hmac=01697806f00c9f2f0e51e9975e05597845ec161f6266406eb23de9924d001b1e" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" data-href="{{ 'theme.css' | asset_url }}">
-
-       {% if template contains 'index' %}
-    
-    {% elsif template contains 'product' %}
-    {%- render '__product-css' -%}
-    {% elsif template contains 'collection' %}
-    {%- render '__collection-css' -%}
-    {% else %}
-       <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
-    {% endif %}
+    <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
 
     <script>
       {%- if request.page_type == 'policy' -%}
