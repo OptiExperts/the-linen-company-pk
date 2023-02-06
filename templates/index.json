@@ -223,6 +223,38 @@
         "button_background": "#ffffff"
       }
     },
+    "f21a4c00-0bab-4b42-b761-5ce72a00095a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16697584550147__f21a4c00-0bab-4b42-b761-5ce72a00095a-1675671421354c40c6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Invert_Gifting_-_Page_Break_Web_Banners.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Invert_Gifting_-_Page_Break_Phone_Banners.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16697584550147__f21a4c00-0bab-4b42-b761-5ce72a00095a-1675671421354c40c6-0"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
     "9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728": {
       "type": "shop-the-look",
       "blocks": {
@@ -419,6 +451,7 @@
     "cb7c9ee1-9ecc-477c-916f-9218070ece7d",
     "2ed3a644-f558-4afe-ace8-887241fbc3b7",
     "caf16f86-4716-4de1-9017-75492a0aa24a",
+    "f21a4c00-0bab-4b42-b761-5ce72a00095a",
     "9d5ac5a6-a295-4b9e-8efd-7d5ac3ad7728",
     "3c395f23-103b-4ade-aee8-91b2610048ea",
     "3add1ef5-b864-4a4d-b73c-ffd6262674f3",
