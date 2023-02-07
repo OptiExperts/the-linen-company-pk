@@ -12,11 +12,6 @@
             "show_taxes_included": false
           }
         },
-        "share_buttons": {
-          "type": "share_buttons",
-          "settings": {
-          }
-        },
         "variant_selector": {
           "type": "variant_selector",
           "settings": {
@@ -84,7 +79,6 @@
       },
       "block_order": [
         "product_meta",
-        "share_buttons",
         "variant_selector",
         "quantity_selector",
         "buy_buttons",
