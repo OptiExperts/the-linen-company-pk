@@ -2,7 +2,27 @@
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "custom about us",
+    "settings": [
+      {
+      "type": "image_picker",
+        "id": "image",
+        "label": "Image",
+        "info": "1500 x 800px .jpg recommende d"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Your story"
+      }
+    ],
+    "presets": [
+      {
+        "category": "Image",
+        "name": "custom about us",
+        "settings": {}
+      }
+    ]
   }
 {% endschema %}
