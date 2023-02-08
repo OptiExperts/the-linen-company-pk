@@ -367,6 +367,9 @@
       case 857: {
         selector = '.grid__item .grid-product__price'; break
       }
+      case 765: {
+        selector = '.product--details'; break
+      }
       default: {
         // Warehouse主题
         if (q('body.warehouse--v1')) {
@@ -1326,7 +1329,8 @@
   function initInlineAndFloatBtn() {
     if (inlineBtnElement.length) {
       inlineBtnElement.forEach((i, inx) => {
-        i.addEventListener('click', function () {
+        i.addEventListener('click', function (e) {
+          e.preventDefault();
           autoInput();
           let curProId = 0
           emailFrameElement.style.display = 'block';
@@ -1471,7 +1475,7 @@
     if (isProPage) {
       const url = document.URL;
       listenUrlStatus();
-      if (url.indexOf('variant=') === -1) {
+      if (url.indexOf('variant=') === -1 || shopId == 1742274613) {
         checkVariantChange();
       }
     } else if (isCollPage) {
@@ -1486,7 +1490,9 @@
     if (isProPage) {
       if (shopId == 55013703857) {
         targetNode = q('.select-selected, select[name=id]');
-      } else {
+      }else if(shopId == 1742274613) {
+        targetNode = q('.option-1');
+      }else {
         targetNode = q('input[name=id], select[name=id]');
       }
     } else if (isCollPage) {
@@ -1512,6 +1518,12 @@
       if (shopId == 55013703857) {
         const selectedTitle = q('.select-selected').innerText;
         curVariantId = variantData.find(o => o.title == selectedTitle).id;
+      }else if(shopId == 1742274613){
+        const option1Node = q('.option-0');
+        const option2Node = q('.option-1');
+        const option1Title = option1Node.querySelector('.selected_val').innerText;
+        const option2Title = option2Node.querySelector('.selected_val').innerText;
+        curVariantId = variantData.find(o => o.option1 == option1Title && o.option2 == option2Title).id;
       } else {
         curVariantId = q('input[name=id], select[name=id]').value;
       }
