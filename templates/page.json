@@ -3,10 +3,19 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_large": false
+      }
+    },
+    "969df11e-f77a-43b6-a8d2-20c9dde32592": {
+      "type": "custom_about-us",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bring_Comfort_Home_Web_Image.jpg",
+        "title": "Our Journey"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "969df11e-f77a-43b6-a8d2-20c9dde32592"
   ]
 }
