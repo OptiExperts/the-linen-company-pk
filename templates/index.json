@@ -480,40 +480,43 @@
         "template--16697584550147__775e543e-26c5-4ea2-8476-201796021598-167722897350551baf-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "baby-crib-sets",
+            "image": "shopify:\/\/shop_images\/Babi_Feet_28222c81-50f7-487a-bf21-189e7e35317d.jpg",
             "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "Sub-heading",
-            "title": "Collection name",
-            "button_text": "View products",
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "Baby",
+            "button_text": "View Products",
             "button_link": "",
-            "apply_overlay": true
+            "apply_overlay": false
           }
         },
         "7315533a-896f-4e9b-87ca-226dde11208c": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "blankets",
+            "image": "shopify:\/\/shop_images\/Navy_Blankie.jpg",
             "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "Sub-heading",
-            "title": "Collection name",
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "Blankets",
             "button_text": "View products",
             "button_link": "",
-            "apply_overlay": true
+            "apply_overlay": false
           }
         },
         "12855df6-82d9-4b31-b77e-04dbea67728b": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "bath",
+            "image": "shopify:\/\/shop_images\/Towel_Stack_2b520373-d835-45c2-a9d6-95874846ba1f.jpg",
             "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "Sub-heading",
-            "title": "Collection name",
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "Bath",
             "button_text": "View products",
             "button_link": "",
-            "apply_overlay": true
+            "apply_overlay": false
           }
         }
       },
@@ -525,12 +528,12 @@
         "12855df6-82d9-4b31-b77e-04dbea67728b"
       ],
       "settings": {
-        "image_size": "normal",
-        "add_spacing": true,
+        "image_size": "small",
+        "add_spacing": false,
         "expand_collection": false,
         "stack_on_mobile": true,
         "text_color": "#ffffff",
-        "button_color": "#363636"
+        "button_color": "#212121"
       }
     }
   },
