@@ -444,6 +444,94 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
+    },
+    "775e543e-26c5-4ea2-8476-201796021598": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "template--16697584550147__775e543e-26c5-4ea2-8476-201796021598-167722897350551baf-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "solids",
+            "image": "shopify:\/\/shop_images\/Waffle_Web_7bf1e558-083c-4ec7-8f07-0ac70c3bd362.jpg",
+            "image_alignment": "center center",
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "Solids",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": false
+          }
+        },
+        "template--16697584550147__775e543e-26c5-4ea2-8476-201796021598-167722897350551baf-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "prints",
+            "image": "shopify:\/\/shop_images\/Eden_Web.jpg",
+            "image_alignment": "bottom center",
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "Prints",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": false
+          }
+        },
+        "template--16697584550147__775e543e-26c5-4ea2-8476-201796021598-167722897350551baf-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "7315533a-896f-4e9b-87ca-226dde11208c": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "12855df6-82d9-4b31-b77e-04dbea67728b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16697584550147__775e543e-26c5-4ea2-8476-201796021598-167722897350551baf-0",
+        "template--16697584550147__775e543e-26c5-4ea2-8476-201796021598-167722897350551baf-1",
+        "template--16697584550147__775e543e-26c5-4ea2-8476-201796021598-167722897350551baf-2",
+        "7315533a-896f-4e9b-87ca-226dde11208c",
+        "12855df6-82d9-4b31-b77e-04dbea67728b"
+      ],
+      "settings": {
+        "image_size": "normal",
+        "add_spacing": true,
+        "expand_collection": false,
+        "stack_on_mobile": true,
+        "text_color": "#ffffff",
+        "button_color": "#363636"
+      }
     }
   },
   "order": [
@@ -455,6 +543,7 @@
     "3c395f23-103b-4ade-aee8-91b2610048ea",
     "caf16f86-4716-4de1-9017-75492a0aa24a",
     "3add1ef5-b864-4a4d-b73c-ffd6262674f3",
-    "4321c6d9-4e53-41d0-89ec-b7759a321be4"
+    "4321c6d9-4e53-41d0-89ec-b7759a321be4",
+    "775e543e-26c5-4ea2-8476-201796021598"
   ]
 }
